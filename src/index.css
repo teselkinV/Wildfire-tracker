@@ -2,7 +2,6 @@ body {
   margin: 0;
 }
 
-
 .header {
   padding: 10px;
   background-color: rgb(12, 12, 12);
@@ -15,7 +14,7 @@ body {
 }
 
 .header h1 {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
   letter-spacing: 0.15rem;
   font-size: 2rem;
   margin: 0.25rem;
@@ -23,7 +22,7 @@ body {
 }
 
 .header h2 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: lighter;
   font-size: 1.5rem;
   margin: 0;
@@ -45,17 +44,17 @@ body {
   font-size: 2rem;
   cursor: pointer;
 }
- .spinner {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   min-height: 100vh;
- }
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
- .location-info {
+.location-info {
   position: absolute;
-  top: 90px;
+  top: 272px;
   min-width: 340px;
   min-height: 100px;
   padding: 12px;
@@ -67,18 +66,15 @@ body {
   font-size: 1rem;
 }
 
- 
+.location-info li {
+  list-style: none;
+  font-size: 0.875rem;
+}
 
- .location-info li {
-   list-style: none;
-   font-size: 0.875rem;
- }
- 
-
- @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .location-info {
     position: absolute;
-    top: 70px;
+    top: 190px;
     left: 50px;
     width: 400px;
     min-height: 100px;
@@ -88,4 +84,4 @@ body {
     color: rgb(95, 95, 95);
     background-color: rgb(238, 238, 238);
   }
- }
+}
